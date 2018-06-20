@@ -22,7 +22,7 @@ public class TestUtils extends Base{
 	static Sheet sheet;
 	//static String Sheetname="createaccount";
 	static Double doubleObj;
-	static String TestSheetPath = "C:\\Users\\harsh\\eclipse-workspace\\com.automationpractice\\src\\main\\java\\com\\automationpractice\\testdata\\AutomationPracticeTestData.xlsx";
+	static String TestSheetPath = "C:\\Users\\harsh\\git\\AutomationPractice\\com.automationpractice\\src\\main\\java\\com\\automationpractice\\testdata\\AutomationPracticeTestData.xlsx";
 	
 	public static Object[][] getTestdata(String Sheetname) {
 	//public static void main(String[] args) {

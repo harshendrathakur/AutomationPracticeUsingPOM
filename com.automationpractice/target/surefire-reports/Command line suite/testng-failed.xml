@@ -5,6 +5,7 @@
     <classes>
       <class name="com.automationpractice.testcases.RegistrationPageTest">
         <methods>
+          <include name="destroyBrowser"/>
           <include name="createAccountTest"/>
           <include name="setup"/>
         </methods>

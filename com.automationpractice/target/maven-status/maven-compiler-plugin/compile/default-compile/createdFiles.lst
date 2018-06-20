@@ -1,5 +1,5 @@
-com\automationpractice\Utils\TestUtils.class
+com\automation\TestPages\LoginPage.class
 com\automation\TestPages\AccountLandingPage.class
 com\automation\TestPages\RegistrationPage.class
 com\automationpractice\TestBase\Base.class
-com\automation\TestPages\LoginPage.class
+com\automationpractice\Utils\TestUtils.class
