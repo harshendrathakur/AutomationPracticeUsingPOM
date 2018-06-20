@@ -17,7 +17,7 @@ public class Base {
 	public Base() throws IOException {
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\harsh\\eclipse-workspace\\com.automationpractice\\src\\main\\java\\com\\automationpractice\\config\\config.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\harsh\\git\\AutomationPractice\\com.automationpractice\\src\\main\\java\\com\\automationpractice\\config\\config.properties");
 		prop.load(fis);
 		
 	}
