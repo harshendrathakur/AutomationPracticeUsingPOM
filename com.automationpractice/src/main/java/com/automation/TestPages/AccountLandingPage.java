@@ -15,7 +15,7 @@ public class AccountLandingPage extends Base{
 	}
 	
 	@FindBy(className="icon-user")
-		WebElement myPersonalInfo;
+		public WebElement myPersonalInfo;
 
 	@FindBy(className="icon-building")
 		WebElement mySavedAddresses;
@@ -23,17 +23,31 @@ public class AccountLandingPage extends Base{
 	@FindBy(className="icon-heart")
 		WebElement myWishlist;
 	
-	@FindBy(className="page-heading")
+	@FindBy(xpath="//span[@class='navigation_page']")
 	WebElement pageTitle;
 	
-	public void navToPersonalInfo() {
+	public PersonalDetailsPage navigateToPersonalInfo() throws IOException {
 		myPersonalInfo.click();
+		return new PersonalDetailsPage();
 	}
 	
-	public void checkPageTitle() {
+	public SavedAddresses navigateToSavedAddressesPage() throws IOException{
+		mySavedAddresses.click();
+		return new SavedAddresses();
+	}
+	
+	public WishlistPage navigateToWishlistPage() throws IOException {
+		myWishlist.click();
+		return new WishlistPage();
+	}
+	
+	public boolean checkPageTitle() {
 		
+		if(pageTitle.getText()=="My account") {
+			return true;
+		}
+		else return false;
 		
-		
-		System.out.println("success");
+	
 	}
 }

@@ -14,6 +14,7 @@ public class LoginPage extends Base {
 		PageFactory.initElements(driver, this);
 	}
 
+		AccountLandingPage accountLandingPage;
 	
 	@FindBy(id="email")
 		WebElement loginEmail;
@@ -35,7 +36,7 @@ public class LoginPage extends Base {
 		loginEmail.sendKeys(uname);
 		loginPassword.sendKeys(pwd);
 		loginBtn.click();
-		
+				
 		return new AccountLandingPage();
 		
 	}
