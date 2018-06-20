@@ -6,7 +6,7 @@
       <class name="com.automationpractice.testcases.RegistrationPageTest">
         <methods>
           <include name="destroyBrowser"/>
-          <include name="createAccountTest"/>
+          <include name="createAccountTest" invocation-numbers="2 4"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.automationpractice.testcases.RegistrationPageTest -->
