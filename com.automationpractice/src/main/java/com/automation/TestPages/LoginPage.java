@@ -23,7 +23,7 @@ public class LoginPage extends Base {
 	
 	@FindBy(id="SubmitLogin")
 	  WebElement loginBtn;
-	
+	//test-jenkins-auto-build-on-push-to-git
 	@FindBy(id="email_create")
 		WebElement createEmail;
 	
