@@ -1,3 +1,7 @@
+/*
+ * Base class
+ */
+
 package com.automationpractice.TestBase;
 
 import java.io.FileInputStream;
