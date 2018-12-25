@@ -74,7 +74,7 @@ public class RegistrationPage extends Base{
 		
 		//int postCode = Integer.parseInt(zipcode);
 		
-		//selectGender.click();
+		selectGender.click();
 		custFirstName.sendKeys(customer_FirstName);
 		custLastName.sendKeys(customer_LastName);
 		custPassword.sendKeys(customer_Password);
