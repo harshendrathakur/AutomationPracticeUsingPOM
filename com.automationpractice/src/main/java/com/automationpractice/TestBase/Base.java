@@ -29,7 +29,7 @@ public class Base {
 	public static void initialization() {
 		
 		if(prop.getProperty("browser").equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\harsh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\harsh\\Documents\\Testing\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}	
 		
