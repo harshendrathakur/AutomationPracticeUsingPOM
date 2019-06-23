@@ -21,7 +21,7 @@ public class Base {
 	public Base() throws IOException {
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\harsh\\git\\AutomationPractice\\com.automationpractice\\src\\main\\java\\com\\automationpractice\\config\\config.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\thakur\\eclipse-workspace\\config.properties");
 		prop.load(fis);
 		
 	}
@@ -29,7 +29,7 @@ public class Base {
 	public static void initialization() {
 		
 		if(prop.getProperty("browser").equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\harsh\\Documents\\Testing\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\Testing\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}	
 		

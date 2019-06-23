@@ -3,13 +3,12 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="com.automationpractice.testcases.RegistrationPageTest">
+      <class name="com.automationpractice.testcases.PersonalDetailsPageTest">
         <methods>
-          <include name="destroyBrowser"/>
-          <include name="createAccountTest" invocation-numbers="2 4"/>
-          <include name="setup"/>
+          <include name="changePasswordTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.automationpractice.testcases.RegistrationPageTest -->
+      </class> <!-- com.automationpractice.testcases.PersonalDetailsPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
